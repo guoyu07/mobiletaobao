@@ -1,0 +1,197 @@
+/*框架样式文件的问题*/
+.am-slider-default .am-control-nav{
+	width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align:right;
+}
+.am-slider-default .am-direction-nav a.am-next:before,.am-slider-default .am-direction-nav a:before{
+	content: "";
+}
+.am-slider-default .am-control-nav li a.am-active{
+	background-color:#FE5400;
+}
+.am-thumbnail a>img, .am-thumbnail>img, img.am-thumbnail{
+	max-width:65%; 
+	margin: 0 auto;
+	border: none;
+}
+/*以上是样式文件的内容*/
+.am-g{
+    background-color: #FE5400;
+}
+.brand{
+	text-align: center;
+}
+.brand,.search{
+	height: 50px;
+	line-height: 50px;
+}
+.brand .icon{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	background: url("../images/icon.png") no-repeat center;
+	background-size: contain;
+
+}
+.search{
+	padding-left: 0;
+}
+.search>button{
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	line-height: 30px;
+	border-radius: 5px;
+	vertical-align: middle;
+	border: none;
+}
+.search>button .am-icon-search{
+	display: inline-block;
+	margin-top: -9px;
+}
+.am-container>ul>li{
+	text-align: center;
+}
+.header{
+	display: inline-block;
+	width: 100%;
+	height:25px !important;
+}
+.am-border-top{
+	text-align: center;
+	padding: 0.5rem 0;
+	border-top: 0.125rem  solid #dddddd;
+}
+.headerImg{
+	border-right: 1px solid #dddddd;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.tips{
+	padding-left: 0;
+	padding-right: 0;
+}
+.newest{
+	color: rgb(216,20,33);
+	border: 1px solid rgb(216, 20, 33);
+	border-radius: 0.215rem;
+	display: inline-block;
+	font-size: 1.4rem;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+}
+.divider{
+	height: 0.95rem;
+	background: #dddddd;
+}
+.cargoShow>.am-g{
+	background-color: #ffffff;
+	
+}
+.cargoShow .am-g{
+	background-color: #ffffff;
+}
+.cargo1{
+	padding: 0;
+	height: 180px;
+	background: url(../images/cargo1.jpg) no-repeat center;
+	background-size: contain;
+	border-right: 1px solid #dddddd;
+}
+.cargo2{
+	height: 60px;
+	background: url(../images/cargo2.jpg) no-repeat center;
+	background-size: contain;
+}
+.cargo2-1{
+	height: 60px;
+	background: url(../images/cargo2-1.png) no-repeat center;
+	background-size: contain;
+}
+.cargo3{
+	height: 120px;
+	background:url(../images/cargo3.jpg) no-repeat center;
+	background-size: contain;
+	border-right: 1px solid #dddddd;
+}
+.cargo4{
+	height: 120px;
+	background:url(../images/cargo4.jpg) no-repeat center;
+	background-size: contain;
+}
+.border-b{
+	border-bottom: 1px solid #dddddd;
+}
+.title{
+	height: 30px;
+	background:#dddddd;
+	vertical-align: middle;
+}
+.line{
+	height: 15px;
+	border-bottom:1px solid rgb(204,204,204);
+}
+span.logo1{
+	background:url(../images/logo1.png) no-repeat center;
+}
+span.logo2{
+	background: url(../images/logo2.png) no-repeat center;
+}
+span.logo1,span.logo2{
+	display: inline-block;
+	width: 20px;
+	height: 30px;
+	line-height: 30px;	
+	background-size: contain;
+}
+.textTitle{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 0.225rem;
+	text-align: center;
+}
+.left .am-g{
+	background-color: #ffffff;
+}
+.logo5{
+	height: 100px;
+	background:url(../images/cargo5.jpg) no-repeat center;
+	background-size:contain;
+	border-right: 1px solid #dddddd;
+}
+.logo6{
+	height: 100px;
+	background:url(../images/cargo6.png) no-repeat center;
+	background-size:contain;
+	border-right: 1px solid #dddddd;
+}
+.logo7-1{
+	background: url(../images/cargo7-1.png) no-repeat center;
+	border-right: 1px solid #dddddd;
+
+}
+.logo7-2{
+	background: url(../images/cargo7-2.png) no-repeat center;
+	border-right: 1px solid #dddddd;
+}
+.logo7-3{
+	background: url(../images/cargo7-3.png) no-repeat center;
+}
+.logo7-4{
+	background: url(../images/cargo7-4.png) no-repeat center;
+	border-right: 1px solid #dddddd;
+}
+.logo7-5{
+	background: url(../images/cargo7-5.png) no-repeat center;
+	border-right: 1px solid #dddddd;
+}
+.logo7-6{
+	background: url(../images/cargo7-6.png) no-repeat center;
+}
+.logo7-1,.logo7-2,.logo7-3,.logo7-4,.logo7-5,.logo7-6{
+	height: 100px;
+	background-size: contain;
+}
